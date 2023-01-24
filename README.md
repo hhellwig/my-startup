@@ -6,5 +6,3 @@ Change from dev environment
 Change from GitHub
 
 Change from VS Code
-
-Change from GitHub to check in VS
