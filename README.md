@@ -7,4 +7,4 @@ Change from GitHub
 
 Change from VS Code
 
-Change from GitHub to check in VS
+Change from GitHub to check in VS Code
