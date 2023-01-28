@@ -13,8 +13,9 @@ When I got to the merge issues part of the assignment, I couldn't figure out how
 ## Mad Match
 
 ###### Startup Design -
+Images here -
+[Note Jan 27, 2023.pdf](https://github.com/hhellwig/startup/files/10524195/Note.Jan.27.2023.pdf)
 
-[Note Jan 27, 2023.pdf](https://github.com/hhellwig/startup/files/10524036/Note.Jan.27.2023.pdf)
 
 The simplest games are often the most exciting, and who doesn't love a good matching game! Matching games increase memory skills and have the added benefit of being great fun! In this application, users can log in, play the matching game, and share their time scores with other players! Users can race to beat the fastest times and have their score posted on the leaderboard! Each week will include new match packs with fun new images to match and play with. Users can recommend new match packs to their friends and suggest new match pack themes to the creator! Don't miss out on the match of a lifetime with Mad Match!
 
