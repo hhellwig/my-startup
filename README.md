@@ -10,6 +10,8 @@ Change from VS Code
 
 When I got to the merge issues part of the assignment, I couldn't figure out how to get the two versions to merge until I used VS Code. I think this was useful for me to figure out what way is easiest for me to find solutions to common problems. I am excited to keep using GitHub since it is really fascinating to me how the branches can communicate with each other. I will try to commit often so I can keep good track of my work in GitHub
 
+In HTML don't forget your closing tags! Also, W3Schools has really good info for using HTML, so if you get stuck, try visiting their website.
+
 My web server: http://13.59.191.43
 
 My domain name: https://porbeaglesharks.click
