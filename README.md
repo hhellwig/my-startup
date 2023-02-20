@@ -12,13 +12,18 @@ When I got to the merge issues part of the assignment, I couldn't figure out how
 
 In HTML don't forget your closing tags! Also, W3Schools has really good info for using HTML, so if you get stuck, try visiting their website.
 
-###### Simon -
+###### Simon HTML-
 - Learned how to use HTML structures
 - Don't forget to save, commit, and push all changes made in VScode
 - Re-deploy every time changes are made so web page is updated
 - Link to Simon : https://simon.porbeaglesharks.click
 
 - Link to simon github: https://github.com/hhellwig/simon.git
+
+###### Simon CSS-
+- Learned how to style using css
+- Learned that VSCode will let you select color using a color scale!
+- Aligning items is hard!
 
 
 My web server: http://13.59.191.43
