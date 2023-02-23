@@ -2,15 +2,16 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 375px;
+    background: peachpuff;
 }
 
 header {
-    background: rgb(201, 99, 201);
+    background: rgb(0, 0, 57);
     flex: 0 80px;
 }
 
 main {
-    background: plum;
+    background: peachpuff;
     flex: 1 calc(100vh - 110px);
     display: flex;
     flex-direction: column;
@@ -19,7 +20,7 @@ main {
 }
 
 footer {
-    background: rgb(201, 99, 201);
+    background: rgb(244, 109, 94);
     flex: 0 30px;
 }
 
@@ -32,7 +33,7 @@ menu {
 
 .navbar-brand {
     padding-left: 0.3em;
-    border-bottom: solid lightgray thin;
+    border-bottom: solid #99f49f thin;
 }
 
 menu .nav-item {
