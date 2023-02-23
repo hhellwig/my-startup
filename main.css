@@ -20,7 +20,7 @@ main {
 }
 
 footer {
-    background: rgb(244, 109, 94);
+    background: #fa8072;
     flex: 0 30px;
 }
 
@@ -33,7 +33,7 @@ menu {
 
 .navbar-brand {
     padding-left: 0.3em;
-    border-bottom: solid #99f49f thin;
+    border-bottom: solid #5c6176 thin;
 }
 
 menu .nav-item {
