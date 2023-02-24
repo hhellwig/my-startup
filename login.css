@@ -1,0 +1,33 @@
+#header {
+    width: 100%;
+    background: rgb(9, 9, 80);
+    color: white;
+}
+
+#main {
+    background: rgb(183, 183, 255);
+}
+
+#footer {
+    display: flex;
+    float: right;
+    background: rgb(9, 9, 80);
+}
+
+#login {
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 10%;
+    padding-top: 60px;
+    width: 3in;
+    height: 3in;
+    border: thick solid rgb(9, 9, 80);
+    background: white;
+    color: rgb(9, 9, 80);
+    text-align: center;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#body {
+    background: rgb(183, 183, 255);
+}

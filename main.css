@@ -37,23 +37,11 @@ menu {
 }
 
 menu .nav-item {
-    font-size: 36pt;
-    padding: 0 0.3em;
+    font-size: 28pt;
+    padding: 0 0.4em;
 }
 
 footer a {
     text-decoration: underline;
     float: right;
-}
-
-#login {
-    align-items: center;
-    border-radius: 10%;
-    position: absolute;
-    width: 3in;
-    height: 3in;
-    background: #fa8072;
-    color: white;
-    text-shadow: 1px 1px black;
-    text-align: center;
 }

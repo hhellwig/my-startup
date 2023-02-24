@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Mad Match</title>
         
-        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="login.css" />
 
         <!--Bootstrap implementation-->
         <link 
@@ -17,23 +17,23 @@
         <!--Icon code-->
         <script src="https://kit.fontawesome.com/c122e69882.js" crossorigin="anonymous"></script>
     </head>
-    <body class="text-light text-center">
-        <header class="container-fluid">
+    <body class="text-light text-center" id="body">
+        <header class="container-fluid" id="header">
             <h1>Welcome to Mad Match!</h1>
         </header>
 
-        <main class="container-fluid text-center">
+        <main class="container-fluid text-center" id="main">
             <div class="card" id="login">
-                <h2 id="greeting">Login to play</h2>
+                <h2>Login to play</h2>
                 <form method="get" action="home.html">
                     <ul class="list-unstyled">
                         <li>
                         <label for="name">Username: </label>
-                        <input type="text" id="name" placeholder="ex: happyshark12"/>
+                        <input type="text" class="rounded" id="name" placeholder="ex: happyshark12"/>
                         </li>
                         <li>
                         <label for="password">Password: </label>
-                        <input type="password" id="password" name="password" placeholder="****"/>
+                        <input type="password" class="rounded" id="password" name="password" placeholder="****"/>
                         </li>
                     </ul>
                     <button type="submit" class="btn btn-primary">Login</button>
@@ -41,12 +41,12 @@
             </div>
         </main>
 
-        <footer class="fixed-bottom">
+        <footer class="fixed-bottom" id="footer">
             <div class="container-fluid">
             <span class="text-reset">Hailey Hellwig</span>
             <a 
                 class="text-reset"
-                href="https://githug.com/hhellwig">
+                href="https://github.com/hhellwig">
                 GitHub
             </a>
             </div>
