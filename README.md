@@ -53,3 +53,5 @@ The simplest games are often the most exciting, and who doesn't love a good matc
 - Learned that the best resource for learning bootstrap is either bootstrap website or stack overflow
 - Testing using the web debugger can help determine if viewer will work on different devices
 - Don't get frustrated! Sometimes it's just an easy fix! Comment out a line and test to see if it changes anything
+- If it's not working, try wrapping it in another div ;)
+- Class and Id's can be really important for distinguishing items! Use them and use names that make sense!
