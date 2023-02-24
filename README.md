@@ -47,3 +47,9 @@ The simplest games are often the most exciting, and who doesn't love a good matc
 - Giving app feedback
 - Competing for the high score!
 - Fun!
+
+###### Mad Match Notes -
+- I learned that for some reason even though I am using two different css sheets, my program couldn't recognize the difference between them, which is why all of the items in login.css are referred to by id names instead of element names
+- Learned that the best resource for learning bootstrap is either bootstrap website or stack overflow
+- Testing using the web debugger can help determine if viewer will work on different devices
+- Don't get frustrated! Sometimes it's just an easy fix! Comment out a line and test to see if it changes anything
