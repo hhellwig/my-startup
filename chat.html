@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Play</title>
+        <title>Home</title>
         <link rel="stylesheet" href="main.css" />
         
         <link 
@@ -15,6 +15,7 @@
         
 
         <script src="https://kit.fontawesome.com/c122e69882.js" crossorigin="anonymous"></script>
+
     </head>
     <body class="text-light">
         <header class="container-fluid">
@@ -39,49 +40,31 @@
                 </menu>
             </nav>
         </header>
-        <main class="container-fluid text-center">
-            <table class="table table-primary table-striped-columns" id="scores">
-                <thead class="table-dark">
-                    <tr>
-                        <th>#</th>
-                        <th>Username</th>
-                        <th>Time</th>
-                        <th>Date</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Hailey Hellwig</td>
-                        <td>00:20</td>
-                        <td>Feb 5, 2023</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Hailey Hellwig</td>
-                        <td>00:50</td>
-                        <td>Feb 6, 2023</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Hailey Hellwig</td>
-                        <td>01:00</td>
-                        <td>Feb 8, 2023</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Hailey Hellwig</td>
-                        <td>01:10</td>
-                        <td>Feb 3, 2023</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Hailey Hellwig</td>
-                        <td>01:30</td>
-                        <td>Feb 23, 2023</td>
-                    </tr>
-                </tbody>
-            </table>
+        <main class="container-fluid ">
+            <div class="users">
+                <label for="user">Select user to message:</label>
+                <select name="user" id="user">
+                    <option value="Hailey">Hailey Hellwig</option>
+                    <option value="Random">Random Player</option>
+                </select>
+            </div>
+            <div class="container" id="messaging">
+                <div>
+                <form>
+                    <ul class="list-unstyled">
+                        <li>
+                            <label for="message text-dark">Enter you message:</label>
+                        </li>
+                        <li>
+                            <textarea id="message" name="message" rows="7" cols="100"></textarea>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-primary">Send</button>
+                        </li>
+                    </ul>
+                </form>
+                </div>
+            </div>
         </main>
         <footer class="fixed-bottom">
             <div class="container-fluid">
@@ -98,5 +81,5 @@
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
             crossorigin="anonymous">
         </script>
-    </body>
+        </body>
 </html>

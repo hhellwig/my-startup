@@ -33,27 +33,31 @@
                     <li class="nav-item">
                         <a class="nav-link" href="user.html"><i class="fa-solid fa-user"></i></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chat.html"><i class="fa-solid fa-message"></i></a>
+                    </li>
                 </menu>
             </nav>
         </header>
-        <main class=" container-fluid">
-            <div class="container">
-                <h2>Player Info</h2>
-                <h3>Username:</h3>
+        <main class="container-fluid">
+            <div class="container text-center">
+                <h1>Player Info</h1>
+                <h3>Username</h3>
                 <p>Username Here</p>
                 <h3>High Score</h3>
                 <p>Score Here</p>
-                <div class="card text-center text-dark">
+                <div class="container text-center text-dark" id="changePass">
                     <p>Change Password? Enter new password here</p>
                     <form>
                         <label for="password">New Password:</label>
-                        <input type="password" name="password" id="password" placeholder="****" />
+                        <input type="password" class="rounded" name="password" id="password" placeholder="****" />
                         <button type="button" class="btn btn-primary">Submit</button>
                     </form>
-                    <a href="login.html">
-                        <button type="button" class="btn btn-danger">Log Out</button>
-                    </a>
+                    
                 </div>
+                <a href="login.html">
+                    <button type="button" class="btn btn-danger">Log Out</button>
+                </a>
             </div>
         </main>
         <footer class="fixed-bottom">

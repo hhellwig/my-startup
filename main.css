@@ -2,16 +2,16 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 375px;
-    background: peachpuff;
+    background: rgb(183, 183, 255);
 }
 
 header {
-    background: rgb(0, 0, 57);
+    background: rgb(9, 9, 80);
     flex: 0 80px;
 }
 
 main {
-    background: peachpuff;
+    background: rgb(183, 183, 255);
     flex: 1 calc(100vh - 110px);
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ main {
 }
 
 footer {
-    background: #fa8072;
+    background: rgb(9, 9, 80);
     flex: 0 30px;
 }
 
@@ -33,15 +33,68 @@ menu {
 
 .navbar-brand {
     padding-left: 0.3em;
-    border-bottom: solid #5c6176 thin;
+    border-bottom: solid rgb(183, 183, 255);
 }
 
 menu .nav-item {
-    font-size: 28pt;
-    padding: 0 0.4em;
+    font-size: 17pt;
+    padding: 0 0.6em;
 }
 
 footer a {
     text-decoration: underline;
     float: right;
+}
+
+main > h2, h3, h1 {
+    text-shadow: 2px 2px 2px rgb(9, 9, 80);
+}
+
+
+#messaging {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+#matchPackIndicator {
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
+}
+
+#changePass {
+    background: rgb(183, 183, 255);
+}
+
+#scores {
+    border-radius: 30px 30px 30px 30px;
+    overflow: hidden;
+}
+
+#game {
+    margin: 10px;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    grid-gap: 1em;
+    color: white;
+}
+
+#game .card {
+    padding-top: 80px;
+    background: rgb(9, 9, 80);
+}
+
+#start {
+    position: absolute;
+    bottom: 40px;
+}
+
+.users {
+    flex: 1;
+    width: 100%;
+    padding: 0.5em;
 }

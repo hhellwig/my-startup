@@ -10,8 +10,12 @@
 
 #footer {
     display: flex;
-    float: right;
     background: rgb(9, 9, 80);
+}
+
+#footer a {
+    text-decoration: underline;
+    float: right;
 }
 
 #login {
