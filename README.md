@@ -25,6 +25,12 @@ In HTML don't forget your closing tags! Also, W3Schools has really good info for
 - Learned that VSCode will let you select color using a color scale!
 - Aligning items is hard!
 
+###### Simon JS-
+- Learned how to create local login (use for startup)
+- Learned how to make buttons "reactive (can use for match cards)
+- Learned how to get score table to update (use for high scores on startup)
+- JavaScript can get really complicated...I think I'll probably need a lot of help implementing it in my startup
+
 
 My web server: http://13.59.191.43
 
