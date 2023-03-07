@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Mad Match</title>
         
+        <script src="login.js"></script>
         <link rel="stylesheet" href="login.css" />
 
         <!--Bootstrap implementation-->
@@ -25,7 +26,7 @@
         <main class="container-fluid text-center" id="main">
             <div class="card" id="login">
                 <h2>Login to play</h2>
-                <form method="get" action="home.html">
+                <div>
                     <ul class="list-unstyled">
                         <li>
                         <label for="name">Username: </label>
@@ -36,8 +37,8 @@
                         <input type="password" class="rounded" id="password" name="password" placeholder="****"/>
                         </li>
                     </ul>
-                    <button type="submit" class="btn btn-primary">Login</button>
-            </form>
+                    <button type="submit" class="btn btn-primary" onclick="login()">Login</button>
+                </div>
             </div>
         </main>
 
