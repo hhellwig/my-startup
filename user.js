@@ -15,3 +15,8 @@ class User {
 }
 
 const user = new User();
+
+function changePassword() {
+    const newPass = document.querySelector("#password");
+    localStorage.setItem("password", newPass.value);
+}
