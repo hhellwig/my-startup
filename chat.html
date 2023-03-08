@@ -51,6 +51,9 @@
             </div>
             <div class="container" id="messaging">
                 <div>
+                    <ul class="messages"></ul>
+                </div>
+                <div>
                 <form>
                     <ul class="list-unstyled">
                         <li>
@@ -60,7 +63,7 @@
                             <textarea id="message" name="message" rows="7" cols="100"></textarea>
                         </li>
                         <li>
-                            <button type="button" class="btn btn-primary">Send</button>
+                            <button type="submit" class="btn btn-primary" onclick="sendMessage(); return false;">Send</button>
                         </li>
                     </ul>
                 </form>
@@ -82,5 +85,6 @@
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
             crossorigin="anonymous">
         </script>
+        <script src="chat.js"></script>
         </body>
 </html>
