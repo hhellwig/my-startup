@@ -42,6 +42,7 @@ function checkTime(i) {
 }
 
 function gamePlay() {
+    board = [];
     matchesLeft = 6;
     let gameBoard = document.getElementById("game");
     if (gameBoard.hasChildNodes()) {
