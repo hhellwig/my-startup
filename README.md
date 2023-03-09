@@ -84,3 +84,12 @@ The simplest games are often the most exciting, and who doesn't love a good matc
 - Don't get frustrated! Sometimes it's just an easy fix! Comment out a line and test to see if it changes anything
 - If it's not working, try wrapping it in another div ;)
 - Class and Id's can be really important for distinguishing items! Use them and use names that make sense!
+
+###### Mad Match JS -
+- If you can think to do it, it has probably already been done. If you can find code that does what you want and you understand how to implement it, then don't be afraid to add it and make it your own. Don't struggle to solve a problem that already has a solution.
+- Don't go too fast. If you type quickly you are liable to make mistakes like typos that are hard to find. Better to go slow and make sure you have it right the first time than to search you code for a single missed letter. (Also make sure that the IDE doesn't autocorrect to something you didn't mean)
+- Spread out your work
+- Break a problem down to smaller tasks
+- Don't forget the () after functions, unless you are passing it as a parameter
+- Functions must be called somehow---button press, window.onload, etc.
+
