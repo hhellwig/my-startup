@@ -29,10 +29,11 @@ function startTimeCounter() {
     if (matchesLeft != 0) {
         let t = setTimeout(startTimeCounter, 500); // set a timeout to update the timer
     }
-    else {
-        let endTime = now - startTime;
-        saveScore(endTime);
-    }
+//     else {
+//         let endTime = now - startTime;
+//         const userScore = new UserScore;
+//         userScore.saveScore(endTime);
+//     }
 }
 
 function checkTime(i) {
@@ -122,42 +123,44 @@ function update() {
     cardTwo = null;
 }
 
-function saveScore(score) {
-    const userName = getPlayerName();
-    let scores = [];
-    const scoresText = localStorage.getItem('scores');
-    if (scoresText) {
-        scores = JSON.parse(scoresText);
-    }
-    scores = updateScores(userName, score, scores);
 
-    localStorage.setItem('scores', JSON.stringify(scores));
-}
+// class UserScore {
+    
+//     saveScore(score) {
+//         const userName = this.getPlayerName();
+//         let scores = [];
+//         const scoresText = localStorage.getItem('scores');
+//         if (scoresText) {
+//             scores = JSON.parse(scoresText);
+//         }
+//         scores = this.updateScores(userName, score, scores);
 
-function updateScores(userName, score, scores) {
-    const date = new Date().toLocaleDateString();
-    const newScore = { name: userName, score: score, date: date };
+//         localStorage.setItem('scores', JSON.stringify(scores));
+//     }
+//     updateScores(userName, score, scores) {
+//         const date = new Date().toLocaleDateString();
+//         const newScore = { name: userName, score: score, date: date };
 
-    let found = false;
-    for (const [i, prevScore] of scores.entries()) {
-        if (score > prevScore.score) {
-            scores.splice(i, 0, newScore);
-            found = true;
-            break;
-        }
-    }
+//         let found = false;
+//         for (const [i, prevScore] of scores.entries()) {
+//             if (score > prevScore.score) {
+//                 scores.splice(i, 0, newScore);
+//                 found = true;
+//                 break;
+//             }
+//         }
 
-    if (!found) {
-        scores.push(newScore);
-    }
+//         if (!found) {
+//             scores.push(newScore);
+//         }
 
-    if (scores.length > 10) {
-        scores.length = 10;
-    }
+//         if (scores.length > 10) {
+//             scores.length = 10;
+//         }
 
-    return scores;
-}
-
-function getPlayerName() {
-    return localStorage.getItem('userName') ?? 'Mystery player';
-}
+//         return scores;
+//     }
+//     getPlayerName() {
+//         return localStorage.getItem('userName') ?? 'Mystery player';
+//     }
+// }
