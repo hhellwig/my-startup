@@ -42,6 +42,13 @@ function checkTime(i) {
 }
 
 function gamePlay() {
+    matchesLeft = 6;
+    let gameBoard = document.getElementById("game");
+    if (gameBoard.hasChildNodes()) {
+        while (gameBoard.firstChild) {
+            gameBoard.removeChild(gameBoard.firstChild);
+        }
+    }
     startTime = Math.floor(Date.now() / 1000); //Get the starting time (right now) in seconds
     localStorage.setItem('startTime', startTime); // Store it if I want to restart the timer on the next page
     shuffleCards();
