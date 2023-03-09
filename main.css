@@ -84,6 +84,11 @@ main > h2, h3, h1 {
     background: rgb(9, 9, 80);
 }
 
+#scores {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
 #start {
     position: absolute;
     bottom: 40px;
