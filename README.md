@@ -12,6 +12,27 @@ When I got to the merge issues part of the assignment, I couldn't figure out how
 
 In HTML don't forget your closing tags! Also, W3Schools has really good info for using HTML, so if you get stuck, try visiting their website.
 
+###### Midterm Notes
+- div = division
+- Point to another DNS, use CNAME (to IP = A)
+- Load fonts using @import (link)
+- Promise async other code will execute unless await specified
+- JSON key always in double quotes, undefined is not valid
+- class uses .class
+- id uses #id
+- in regex / opens and closes (usually ends with /i)
+- no equal sign on function declaration unless anonymous
+- Pals Before Marriage
+- Map does a thing to each val of array and maps to that new val
+- textContent sets child text
+- subdomain before domain name followed by period
+- flex columns up->down
+- flex rows left-> right
+- js object must have colon
+- chmod +x deploy.sh makes script executable
+- ssh shells to remote
+- sudo executes as root user
+
 ###### Simon HTML-
 - Learned how to use HTML structures
 - Don't forget to save, commit, and push all changes made in VScode
