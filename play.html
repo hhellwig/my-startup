@@ -44,25 +44,13 @@
         <main class="container-fluid">
             <div class="container text-center">
                 <section id="timer">
-                    <div class="container text-light"><h1 class="display-3">00:00</h1></div>
+                    <div class="container text-light"><h1 class="display-3" id="time">00:00</h1></div>
                 </section>
             </div>
             <div class="container" id="game">
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
-                <div class="card text-center">Match</div>
             </div>
 
-            <button type="button" class="btn btn-primary" id="start">Start</button> 
+            <button type="button" class="btn btn-primary" id="start" onclick="gamePlay()">Start</button> 
         </main>
         <footer class="fixed-bottom">
             <div class="container-fluid">
@@ -79,5 +67,6 @@
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
             crossorigin="anonymous">
         </script>
+        <script src="play.js"></script>
     </body>
 </html>
