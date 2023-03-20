@@ -52,6 +52,12 @@ In HTML don't forget your closing tags! Also, W3Schools has really good info for
 - Learned how to get score table to update (use for high scores on startup)
 - JavaScript can get really complicated...I think I'll probably need a lot of help implementing it in my startup
 
+###### Simon Service-
+- Learned how to actually use POST method in application
+- Learned how to use service storage versus local storage (implement to keep high scores in startup)
+- Service is not too bad when you take the time to understand...start early so you can take your time!
+- It can actually be less complicated than local storage, especially for scoreboards
+
 
 My web server: http://13.59.191.43
 
