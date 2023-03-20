@@ -1,0 +1,20 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "My CS260 startup project and notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhellwig/startup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhellwig/startup/issues"
+  },
+  "homepage": "https://github.com/hhellwig/startup#readme"
+}
