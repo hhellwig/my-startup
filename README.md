@@ -58,6 +58,13 @@ In HTML don't forget your closing tags! Also, W3Schools has really good info for
 - Service is not too bad when you take the time to understand...start early so you can take your time!
 - It can actually be less complicated than local storage, especially for scoreboards
 
+###### Simon DB-
+- DO NOT forget to install mongodb FIRST
+- If the server isn't working try restarting it from ssh again
+- Use similar js for saving scores in startup
+- Sometimes you just need to refresh (git status, server, production, etc)
+- Learned how I will use a my database to save scores for my game
+
 
 My web server: http://13.59.191.43
 
