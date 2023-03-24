@@ -65,6 +65,13 @@ In HTML don't forget your closing tags! Also, W3Schools has really good info for
 - Sometimes you just need to refresh (git status, server, production, etc)
 - Learned how I will use a my database to save scores for my game
 
+###### Simon Login/Authentication-
+- I learned what a cookie actually is and why websites use them!
+- Can use similar implementation for my startup, but might need some tweaks on the styling
+- There is a very specific balance between security and ease of use
+- Don't forget to install bcrypt and cookie-parser and uuid
+- Hashing is how we compare passwords without revealing passwords
+
 
 My web server: http://13.59.191.43
 
