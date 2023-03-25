@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Mad Match</title>
         
-        <script src="login.js"></script>
         <link rel="stylesheet" href="login.css" />
 
         <!--Bootstrap implementation-->
@@ -25,20 +24,64 @@
 
         <main class="container-fluid text-center" id="main">
             <div class="card" id="login">
-                <h2>Login to play</h2>
+                <h2>Login to play!</h2>
                 <div>
                     <ul class="list-unstyled">
                         <li>
-                        <label for="name">Username: </label>
-                        <input type="text" class="rounded" id="name" placeholder="ex: happyshark12"/>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">@</span>
+                                <input
+                                  class="form-control"
+                                  type="text"
+                                  id="userName"
+                                  placeholder="your@email.com"
+                                />
+                              </div>
                         </li>
                         <li>
-                        <label for="password">Password: </label>
-                        <input type="password" class="rounded" id="password" name="password" placeholder="****"/>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">🔒</span>
+                                <input
+                                  class="form-control"
+                                  type="password"
+                                  id="userPassword"
+                                  placeholder="password"
+                                />
+                              </div>
                         </li>
                     </ul>
-                    <button type="submit" class="btn btn-primary" onclick="login()">Login</button>
+                    <button type="button" class="btn btn-primary" onclick="loginUser()">Login</button>
+                    <button type="button" class="btn btn-primary" onclick="createUser()">Create</button>
                 </div>
+
+                <div id="playControls" style="display: none">
+                    <div id="playerName"></div>
+                    <button type="button" class="btn btn-primary" onclick="play()">
+                      Play
+                    </button>
+                    <button type="button" class="btn btn-danger" onclick="logout()">
+                      Logout
+                    </button>
+                  </div>
+                </div>
+
+                <div class="modal fade" id="msgModal" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content text-dark">
+                        <div class="modal-body">error message here</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
             </div>
         </main>
 
@@ -52,5 +95,6 @@
             </a>
             </div>
         </footer>
+        <script src="login.js"></script>
     </body>
 </html>
