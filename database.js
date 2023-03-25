@@ -45,7 +45,7 @@ function addScore(score) {
 function getHighScores() {
   const query = {};
   const options = {
-    sort: { score: -1 },
+    sort: { score: +1 },
     limit: 10,
   };
   const cursor = scoreCollection.find(query, options);
