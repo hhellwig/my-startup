@@ -72,6 +72,13 @@ In HTML don't forget your closing tags! Also, W3Schools has really good info for
 - Don't forget to install bcrypt and cookie-parser and uuid
 - Hashing is how we compare passwords without revealing passwords
 
+###### Simon WS
+- Websocket it used for storing, sending, and receiving messages. It can connect simultaneously instead of waiting for both users to access the server
+- Implement ws to create a chat for my startup
+- Communicate using send() for messages
+- Refer to WS debug page ad chat page if stuck!
+- Add a div for the messages to be sent to
+
 
 My web server: http://13.59.191.43
 
