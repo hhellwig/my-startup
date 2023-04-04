@@ -129,3 +129,4 @@ The simplest games are often the most exciting, and who doesn't love a good matc
 - You cannot use the secure log in from VS Live, so use the debugger instead by pressing F5
 - Don't forget to download the node packages you need before running!
 - Keep it simple, complicating databases and service will only confuse you and your users
+- Note: think about getting rid of the "Are you sure" message...not sure if it really contributes to the interface
