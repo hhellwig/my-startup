@@ -120,3 +120,12 @@ The simplest games are often the most exciting, and who doesn't love a good matc
 - Don't forget the () after functions, unless you are passing it as a parameter
 - Functions must be called somehow---button press, window.onload, etc.
 
+###### Mad Match Service -
+- I learned a lot about security in login for different web applications
+  - Passwords are often hashed for secure storage
+  - Database can be used to store user information
+  - Maybe eventually I can include user scores in that info
+- Websocket allows for multiple users to chat all at the same time
+- You cannot use the secure log in from VS Live, so use the debugger instead by pressing F5
+- Don't forget to download the node packages you need before running!
+- Keep it simple, complicating databases and service will only confuse you and your users
