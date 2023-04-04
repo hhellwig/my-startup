@@ -1,0 +1,17 @@
+#chat-text {
+    color: black;
+    padding: 1em 0;
+  }
+  div .friend {
+    color: rgb(98, 19, 117);
+    margin-left: 0.5em;
+  }
+  div .me {
+    color: rgb(9, 9, 80);
+  }
+  div .system {
+    color: rgb(225, 10, 110);
+  }
+  .name {
+    padding: 1em 0;
+  }

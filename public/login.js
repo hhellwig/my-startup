@@ -9,7 +9,7 @@
     }
   
     if (authenticated) {
-      document.querySelector('#playerName').textContent = userName;
+      document.querySelector('#areYouSure').textContent = "Are you sure?";
       setDisplay('loginControls', 'none');
       setDisplay('playControls', 'block');
     } else {
