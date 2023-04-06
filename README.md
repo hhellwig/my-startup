@@ -79,6 +79,13 @@ In HTML don't forget your closing tags! Also, W3Schools has really good info for
 - Refer to WS debug page ad chat page if stuck!
 - Add a div for the messages to be sent to
 
+###### Simon React
+- Run npm install create-react-app on directory first!
+- Running npm build gives you the production deployment-ready version to deploy
+- Change .js to .jsx
+- React just takes your current elements and turns them into components
+- Create child components to simplifiy jsx files
+- Learned that react takes what you have and makes it into a single "file" application for simplifying
 
 My web server: http://13.59.191.43
 
