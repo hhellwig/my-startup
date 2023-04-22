@@ -33,6 +33,23 @@ In HTML don't forget your closing tags! Also, W3Schools has really good info for
 - ssh shells to remote
 - sudo executes as root user
 
+###### Final Notes
+- Cookies allow server to store on client
+- Fetch can be used in front end and back end
+- HTTP headers (Authorization, Accept, Content-Type, Cookie, Host, Origin, Access-Control-Allow-Origin, Content-Length, Cache-Control, User-Agent)
+- JSX does not include CSS
+- Express middleware: Must match the method, then match url, regular expressions
+- Daemon: Starts when computer rebooted, PM2, executes independent of user, can fork other processes
+- Passwords hashed to improve security
+- Routes to components have URL in them (path=)
+- WebSocket allows peer to peer instead
+- Port 80 is reserved for HTTP, 20 = FTP, 22 = SSH, 25 = SMTP, 53 = DNS, 110 = POP3, 123 = NTP, 161= SNMP, 194 = IRC, 443 = HTTPS
+- Back end only responds if something is sent to it in WS
+- Reg ex are case sensitive (unless ?i)
+- HTTP status codes: 100 = continue, 200 = success, 300 range = caching or redirects, 400 range = error codes, 500 range = service issues
+- npm install adds dependency to json file, adds source code to node-modules, locks version (does not add template code)
+- USE is global does not depend on HTTP request
+
 ###### Simon HTML-
 - Learned how to use HTML structures
 - Don't forget to save, commit, and push all changes made in VScode
